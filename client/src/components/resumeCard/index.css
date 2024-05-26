@@ -1,0 +1,48 @@
+.resumeCard{
+    width: fit-content;
+    background-color: white;
+    border-radius: 8px;
+    height: fit-content;   
+    margin: auto;
+    margin-top: 6rem; 
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.resumes{
+    width: 30rem;
+    height: fit-content;
+    table-layout: fixed;
+    background-color: aquamarine;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+
+.resumeCard td,.resumes td{
+width: 10rem;
+height: 3rem;
+}
+
+.resumeCard input{
+    border:none;
+    outline: none;
+    border-bottom: 1px solid black;
+    height: 2rem;
+    padding-left: 10px;
+}
+
+.resumeCard button{
+    width: 6rem;
+    height: 2rem;
+    color:white;
+    background-color: blueviolet;
+    font-size: 1.1rem;
+    margin-left:8rem;
+    margin-top: 1.5rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.dashboard{
+    background-color: rgb(227, 227, 227);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.dbcHolder{
+    height: 800px;
+    overflow-y: scroll;
+}
+
+.dbAdd{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('../../assets/add.png') no-repeat center;
+    background-size: cover;
+    position: absolute;
+    bottom: 5rem;
+    right:8rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:850px) {
+    .dbcinv{
+        height: 4.5rem;
+    }
+}

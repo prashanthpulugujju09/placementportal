@@ -1,0 +1,103 @@
+.loginContainer{
+    width:40vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    min-height: 600px;
+    margin:auto
+}
+
+.loginContainer h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Poppins','sans-serif';
+    text-align: center;
+    width: 8rem;
+}
+
+.loginContainer input,.loginContainer button{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 5px;
+    border:1px solid black;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    color:black;
+}
+
+.loginContainer button div{
+    background-image: url('../../assets/google.png');
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.loginContainer button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.loginContainer label{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.loginContainer button[type='submit']{
+    background-color: #0ea2bd;
+    border:none;
+    outline: none;
+    color:white;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.loginContainer h6{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: -5px;
+}
+
+.loginContainer h6 a{
+    color:blue;
+    cursor: pointer;
+}
+
+.loginContainer h4{
+    text-align: end;
+    margin: 0px 0px 20px 0px;
+}
+
+.loginContainer h4 a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* .loginRemember{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.loginRemember label{
+    margin: 0px 0px 0px 10px;
+}
+
+.loginRemember input{
+    width: 15px;
+    height: 15px;
+    align-self: center;
+    margin: 0px;
+} */

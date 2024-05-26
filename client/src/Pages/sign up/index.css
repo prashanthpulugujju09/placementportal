@@ -1,0 +1,107 @@
+.SignUpContainer{
+    width:40vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    min-height: 620px;
+    margin:auto
+}
+
+.SignUpContainer h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Poppins','sans-serif';
+    text-align: center;
+    width: 8rem;
+}
+
+.SignUpContainer input,.SignUpContainer button{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 5px;
+    border:1px solid black;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    color:black;
+}
+
+.SignUpContainer button div{
+    background-image: url('../../assets/google.png');
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.SignUpContainer button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.SignUpContainer label{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.SignUpContainer button[type='submit']{
+    background-color: #0ea2bd;
+    border:none;
+    outline: none;
+    color:white;
+}
+
+.SignUpForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.SignUpContainer h6{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: -5px;
+}
+
+.SignUpContainer h6 a{
+    color:blue;
+    cursor: pointer;
+}
+
+.SignUpContainer h4{
+    text-align: end;
+    margin: 0px 0px 20px 0px;
+}
+
+.SignUpContainer h4 a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* .SignUpRole{
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+}
+
+.SignUpRole div{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
+
+.SignUpRole label{
+    margin: 0px;
+}
+
+.SignUpRole input{
+    width: 20px;
+    height: 20px;
+} */

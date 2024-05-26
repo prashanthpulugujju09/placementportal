@@ -1,0 +1,135 @@
+.jobDetails{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 10000;
+    background-color: rgba(220, 220, 220, 0.673);
+    top: 0;
+    left: 0;
+    opacity: 0.95;
+    text-transform: capitalize;
+    /* overflow: hidden; */
+}
+
+.jobDetailsCard{
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    max-height: 80vh;
+    overflow-y: scroll;
+    max-width: 600px;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2rem;
+}
+
+.jDRow{
+    display: flex;
+    width: 25rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0.5px 0.5px 2px 2px #888888;
+}
+
+.jDDes{
+    width: 25rem;
+    height: fit-content;
+    padding: 1rem;
+    text-align: justify;
+    box-shadow: 0.5px 0.5px 2px 2px #888888;
+    margin-bottom: 2rem;
+}
+
+.jDRow span:first-of-type{
+    color:gray
+}
+
+.jDRow:first-of-type{
+    height: 5rem;
+}
+
+.jDRow:first-of-type >div:first{
+    color:blueviolet
+}
+
+.jRole{
+    font-size: 1.3rem;
+    font-weight: 650;
+}
+
+.jCompany{
+    color:gray
+}
+
+.notEligible{
+    color:red
+}
+
+.eligible{
+    color:green
+}
+
+.jdApply{
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.jdDisable{
+    cursor: default;
+    background-color: rgb(23, 17, 30);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    border-radius: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .jdDelete{
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-size: contain;
+    padding: 2px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .jdAA{
+    color:blueviolet;
+    font-size: 1.2rem;
+    width: 10rem;
+    height: 2rem;
+    padding:10px
+    
+  }

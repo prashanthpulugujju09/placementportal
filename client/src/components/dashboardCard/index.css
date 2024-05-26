@@ -1,0 +1,49 @@
+.dashboardCard{
+    max-width: 700px;
+    width: 60%;
+    max-height: 500px;  
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: 'Poppins','sans-serif';
+    margin: 4rem auto 2rem;
+}
+
+.dcHeader{
+    width: 100%;
+    padding:10px;
+    min-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    color: white;
+    /* border-bottom: 1px solid black; */
+}
+
+.dcHeader div:first-of-type{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.dcHeader div:last-of-type{
+    font-weight: 550;
+    color: rgb(222, 215, 215);
+}
+
+.dcBody{
+    padding:20px;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+@media screen and (max-width:850px) {
+    .dashboardCard{
+        width: 80%;
+    }
+}

@@ -1,0 +1,33 @@
+.dashBoardHeader{
+    width: 100vw;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins','sans-serif';
+    position: relative;
+    background-color: white;
+    z-index: 101;
+    /* border-bottom: 1px solid gray; */
+}
+
+.dashBoardLeft{
+    display: flex;
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 540;
+    align-items: center;
+}
+
+.dashBoardLeft div{
+    margin-left: 2rem;
+}
+
+.dashBoardRight{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.dashBoardRight img{
+    cursor: pointer;
+}

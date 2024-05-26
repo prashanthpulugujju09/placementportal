@@ -1,0 +1,117 @@
+.userProfile{
+    margin: auto;
+    width: 50vw;
+    padding:15px;
+    min-width: 450px;
+    max-width: 700px;
+    background-color: white;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+.upAbout h4{
+    font-size: 1.2rem;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upAbout button{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color:white;
+    background-color: blueviolet;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.upAbout table{
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 1.1rem;
+    color:grey;
+}
+
+.upAbout table td{
+    width: 25rem;
+    height: 3rem;
+}
+
+.upLeft{
+    width: 15rem;
+}
+
+.upAbout table input,.upAbout table select{
+    width: 25rem;
+    height: 2rem;
+    border:none;
+    outline: none;
+    font-size: 1.1rem;
+    background-color: white;
+    color:black;
+    border-bottom: 1px solid black;
+}
+
+.upSubmit{
+    width: 5rem;
+    height: 2rem;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1rem;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.upSubmitHolder{
+    width: 7rem;
+    height: 3rem;
+    margin: auto;
+}
+
+@media screen and (max-width:1350px) {
+    .userProfile{
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width:1010px) {
+    .userProfile{
+        width: 65vw;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .userProfile{
+        width: 75vw;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width:775px) {
+    .userProfile{
+        width: 90vw;
+        margin-top: 2rem;
+    }
+
+    .userProfile td{
+        width: 20rem !important;
+        overflow: hidden;
+        margin-right: 10px;
+    }
+
+    .userProfile td input,.userProfile select{
+        width: 10rem;
+    }
+}
+

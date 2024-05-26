@@ -1,0 +1,70 @@
+.jobprofile{
+    overflow: hidden;
+    margin: 6rem auto 0px;
+    width:1200px;
+    table-layout: fixed;
+}
+
+.jpTable{
+    width: 100%;
+    border-collapse:collapse;
+}
+
+.jpTable td,.jpTable th{
+    text-align: left;
+    padding:10px;
+    font-size: 1.2rem;
+    border-bottom: 1px solid black;
+    padding: 8px;
+    width: 20%;
+    max-width: 15rem;
+    overflow: hidden;
+}
+
+.jpTable th{
+    color:blueviolet;
+    padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.jpTable td div{
+    display: flex;
+    align-items: center;
+}
+
+.jpTable td div img{
+    margin-right: 20px;
+}
+
+.jpTable td button{
+    width: 9.5rem;
+    border-radius: 20px;
+    height: 2rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.jpTable tr{
+    cursor: pointer;
+}
+
+.jpTable tr:nth-child(even){background-color: #f2f2f2;}
+
+.jpTable tr:hover {background-color: #ddd;}
+
+.jpTable th{
+    background-color: white;
+    cursor:default;
+}
+
+.jpAdd{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('../../assets/add.png') no-repeat center;
+    background-size: cover;
+    position: absolute;
+    bottom: 5rem;
+    right:8rem;
+    cursor: pointer;
+}

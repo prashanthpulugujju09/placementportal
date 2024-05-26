@@ -1,0 +1,93 @@
+.addJobContainer{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.47);
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 10000;
+}
+
+.addJob{
+    margin: auto;
+    width: 50vw;
+    padding:15px;
+    max-height: 70vh;
+    overflow: scroll;
+    min-width: 450px;
+    max-width: 700px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 8rem;
+    border-radius: 8px;
+}
+
+.addJob h4{
+    font-size: 1.2rem;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addJob button{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color:white;
+    background-color: blueviolet;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.ajTable{
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 1.1rem;
+    color:grey;
+}
+
+.ajTable td{
+    width: 25rem;
+    height: 3rem;
+}
+
+.ajLeft{
+    width: 15rem;
+}
+
+.ajTable input[type='text'],.ajTable select,.ajTable input[type='textarea'],.ajTable input[type='number'],.ajTable input[type='datetime-local']{
+    width: 25rem;
+    height: 2rem;
+    border:none;
+    outline: none;
+    font-size: 1.1rem;
+    background-color: white;
+    color:black;
+    border-bottom: 1px solid black;
+}
+
+.ajSubmit{
+    width: 5rem;
+    height: 2rem;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1rem;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.ajSubmitHolder{
+    width: 7rem;
+    height: 3rem;
+    margin: auto;
+    margin-top: 20px;
+}
